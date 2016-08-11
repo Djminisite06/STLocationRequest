@@ -227,7 +227,7 @@ class STLocationRequestController: UIViewController, MKMapViewDelegate, CLLocati
 	
     /// Add citys to cityCoordinate Array
     func fillCityOrLandmarks3DCoordinatesArray() {
-		let parisEiffelTower = CLLocationCoordinate2DMake(48.85815,2.29452);
+	/*	let parisEiffelTower = CLLocationCoordinate2DMake(48.85815,2.29452);
 		let newYorkStatueOfLiberty = CLLocationCoordinate2DMake(40.689249, -74.044500);
 		let sFGoldenGateBridge = CLLocationCoordinate2DMake(37.826040, -122.479448);
 		let berlinBrandenburgerGate = CLLocationCoordinate2DMake(52.516275, 13.377704);
@@ -268,7 +268,22 @@ class STLocationRequestController: UIViewController, MKMapViewDelegate, CLLocati
         self.places.append(centralParkNY)
         self.places.append(googlePlex)
         self.places.append(lagunaBeach)
-        self.places.append(leMontSaintMichel)
+        self.places.append(leMontSaintMichel)*/
+        
+        let stJamesPark = CLLocationCoordinate2DMake(54.975556, -1.621667)
+        let monument = CLLocationCoordinate2DMake(54.973, -1.613)
+        let stadiumOfLight = CLLocationCoordinate2DMake(54.9144, -1.3882)
+        let castleKeep = CLLocationCoordinate2DMake(54.968889, -1.610556)
+        let milleniumBridge = CLLocationCoordinate2DMake(54.9697, -1.6)
+        let tyneBridge = CLLocationCoordinate2DMake(54.968, -1.606)
+        
+        
+        self.places.append(stJamesPark)
+        self.places.append(monument)
+        self.places.append(stadiumOfLight)
+        self.places.append(castleKeep)
+        self.places.append(milleniumBridge)
+        self.places.append(tyneBridge)
 	}
 
     /// Set a custom style for a given UIButton
